@@ -10,7 +10,6 @@ readFile()
 print(readFile.lines)
 
 word = random.choice(readFile.lines)
-print(word)
 word_size=len(word)
 new_word = "*" * word_size
 input_letter_list = []
