@@ -1,7 +1,6 @@
 import random
 def main():
     if __name__ == '__main__':
-        print("you  are given 10 chances to finish the game")
         readFile()
 def readFile():
     readFile.lines = [line.rstrip('\n') for line in open('words.txt')]
